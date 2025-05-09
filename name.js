@@ -3,9 +3,6 @@
 // con le proprietà firstName e lastName.
 // Esporta la funzione dal file.
 
+const firstAndLastName = (firstName, lastName) => ({firstName, lastName});
 
-function firstAndLastName (firstName, lastName) {
-    return {firstName, lastName};
-};
-
-module.exports = firstAndLastName;
+module.exports = {firstAndLastName};
